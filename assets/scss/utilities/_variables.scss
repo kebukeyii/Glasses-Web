@@ -1,0 +1,78 @@
+// font color
+$primary: #AA0601;
+$primary-light: #FBF2F2;
+$primary-dark: #650300;
+
+$secondary: #000;
+$secondary-light: rgba(0, 0, 0, 0.29);
+
+$third: #707070;
+$third-light: #dee2e6;
+$third-light-1: #CED4DA;
+$third-dark: #555;
+$third-dark-1: #495057;
+
+$brown-1: #5f3e2d;
+$brown-2: #b75929;
+
+$white: #fff;
+
+// font size
+$font-size-base: 16px;
+
+$font-size-sm: 14px;
+
+$font-size-20: 20px;
+$font-size-24: 24px;
+$font-size-32: 32px;
+$font-size-36: 36px;
+$font-size-42: 42px;
+$font-size-48: 48px;
+$font-size-64: 64px;
+
+// display
+$display: (
+  "none": none,
+  "block": block,
+  "inline": inline,
+  "inline-block": inline-block,
+  "flex": flex,
+);
+
+$justify-content: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "between": space-between,
+  "around": space-around,
+  "evenly": space-evenly,
+);
+
+$align-items: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "baseline": baseline,
+  "stretch": stretch,
+);
+
+$flex-direction: (
+  "row": row,
+  "row-reverse": row-reverse,
+  "column": column,
+  "column-reverse": column-reverse,
+);
+
+$flex-wrap: (
+  "nowrap": nowrap,
+  "wrap": wrap,
+  "wrap-reverse": wrap-reverse,
+);
+
+$align-self: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "auto": auto,
+  "stretch": stretch,
+);

@@ -1,0 +1,106 @@
+// font size
+.fz-64{
+  font-size: $font-size-64;
+}
+
+.fz-48{
+  font-size: $font-size-48;
+}
+
+.fz-42{
+  font-size: $font-size-42;
+}
+
+.fz-36{
+  font-size: $font-size-36;
+}
+
+.fz-32{
+  font-size: $font-size-32;
+}
+
+.fz-24{
+  font-size: $font-size-24;
+}
+
+.fz-20{
+  font-size: $font-size-20;
+}
+
+.fz-16{
+  font-size: $font-size-base;
+}
+
+.fz-14{
+  font-size: $font-size-sm;
+}
+
+// font weight
+.fw-black{
+  font-weight: 900;
+}
+
+.fw-bold{
+  font-weight: 700;
+}
+
+.fw-medium{
+  font-weight: 500;
+}
+
+// text align
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+// font family
+.ff-roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+// font style
+.fz-italic {
+	font-style: italic;
+}
+
+
+// text color
+.text-primary {
+	color: $primary;
+}
+
+.text-primary-dark {
+	color: $primary-dark;
+}
+
+.text-white {
+	color: $white;
+}
+
+.text-gray-1 {
+	color: $third-light;
+}
+
+.text-gray-2 {
+	color: $third;
+}
+
+.text-gray-3 {
+	color: $third-dark;
+}
+
+.text-black {
+	color: $secondary;
+}
+
+.text-dropdown {
+  color: $third-dark-1;
+}

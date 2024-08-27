@@ -1,0 +1,57 @@
+nav {
+  background-color: $primary;
+}
+
+.nav-bar {
+  @include pad-lg{
+    max-width: 720px;
+  }
+  @include pad{
+    max-width: 100%;
+    padding: 0;
+    flex-direction: column;
+    align-items: normal;
+  }
+}
+
+.logo a {
+  width: 80px;
+  height: 48.57px;
+  background: url("../images/logo-white.png") no-repeat center/cover;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;    
+  @include pad {
+    margin-top: 16px;
+    margin-bottom: 15.43px;
+    margin-left: 15px;
+  }
+}
+
+.nav-menu {
+  gap: 64px;
+  a {
+    color: $white;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  @include pad {
+    flex-wrap: wrap;
+    font-size: 16px;
+    gap: 0;
+  }
+  li {
+    @include pad {
+      width: 50%;
+    }
+    a {
+      @include pad {
+        padding: 12px 0;
+        border: 1px solid #fff;
+        width: 100%;
+      }
+    }
+  }
+}

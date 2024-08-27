@@ -1,0 +1,29 @@
+/* base */
+body {
+  font-family: "Noto Sans TC","Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  /* outline 放的位置 */
+  /* outline: 1px solid #baf; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}

@@ -1,0 +1,166 @@
+$max: 84;
+
+// pc
+@for $i from 0 through $max { 
+  //margin
+  .m-#{$i} {
+    margin: $i * 4px;
+  }
+  .mt-#{$i} {
+    margin-top: $i * 4px;
+  }
+  .mb-#{$i} {
+    margin-bottom: $i * 4px;
+  }
+  .ms-#{$i} {
+    margin-left: $i * 4px;
+  }
+  .me-#{$i} {
+    margin-right: $i * 4px;
+  }
+  .mx-#{$i} {
+    margin-left: $i * 4px;
+    margin-right: $i * 4px;
+  }
+  .my-#{$i} {
+    margin-top: $i * 4px;
+    margin-bottom: $i * 4px;
+  }
+  // padding
+  .p-#{$i} {
+    padding: $i * 4px;
+  }
+  .pt-#{$i} {
+    padding-top: $i * 4px;
+  }
+  .pb-#{$i} {
+    padding-bottom: $i * 4px;
+  }
+  .ps-#{$i} {
+    padding-left: $i * 4px;
+  }
+  .pe-#{$i} {
+    padding-right: $i * 4px;
+  }
+  .px-#{$i} {
+    padding-left: $i * 4px;
+    padding-right: $i * 4px;
+  }
+  .py-#{$i} {
+    padding-top: $i * 4px;
+    padding-bottom: $i * 4px;
+  }
+  // extra space
+  .py-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+// pad
+@include pad {
+  @for $i from 0 through $max {
+      //margin
+    .m-md-#{$i} {
+      margin: $i * 4px;
+    }
+    .mt-md-#{$i} {
+      margin-top: $i * 4px;
+    }
+    .mb-md-#{$i} {
+      margin-bottom: $i * 4px;
+    }
+    .ms-md-#{$i} {
+      margin-left: $i * 4px;
+    }
+    .me-md-#{$i} {
+      margin-right: $i * 4px;
+    }
+    .mx-md-#{$i} {
+      margin-left: $i * 4px;
+      margin-right: $i * 4px;
+    }
+    .my-md-#{$i} {
+      margin-top: $i * 4px;
+      margin-bottom: $i * 4px;
+    }
+    // padding
+    .p-md-#{$i} {
+      padding: $i * 4px;
+    }
+    .pt-md-#{$i} {
+      padding-top: $i * 4px;
+    }
+    .pb-md-#{$i} {
+      padding-bottom: $i * 4px;
+    }
+    .ps-md-#{$i} {
+      padding-left: $i * 4px;
+    }
+    .pe-md-#{$i} {
+      padding-right: $i * 4px;
+    }
+    .px-md-#{$i} {
+      padding-left: $i * 4px;
+      padding-right: $i * 4px;
+    }
+    .py-md-#{$i} {
+      padding-top: $i * 4px;
+      padding-bottom: $i * 4px;
+    }
+  }
+}
+
+// mobile
+@include mobile {
+  @for $i from 0 through $max {
+      //margin
+    .m-sm-#{$i} {
+      margin: $i * 4px;
+    }
+    .mt-sm-#{$i} {
+      margin-top: $i * 4px;
+    }
+    .mb-sm-#{$i} {
+      margin-bottom: $i * 4px;
+    }
+    .ms-sm-#{$i} {
+      margin-left: $i * 4px;
+    }
+    .me-sm-#{$i} {
+      margin-right: $i * 4px;
+    }
+    .mx-sm-#{$i} {
+      margin-left: $i * 4px;
+      margin-right: $i * 4px;
+    }
+    .my-sm-#{$i} {
+      margin-top: $i * 4px;
+      margin-bottom: $i * 4px;
+    }
+    // padding
+    .p-sm-#{$i} {
+      padding: $i * 4px;
+    }
+    .pt-sm-#{$i} {
+      padding-top: $i * 4px;
+    }
+    .pb-sm-#{$i} {
+      padding-bottom: $i * 4px;
+    }
+    .ps-sm-#{$i} {
+      padding-left: $i * 4px;
+    }
+    .pe-sm-#{$i} {
+      padding-right: $i * 4px;
+    }
+    .px-sm-#{$i} {
+      padding-left: $i * 4px;
+      padding-right: $i * 4px;
+    }
+    .py-sm-#{$i} {
+      padding-top: $i * 4px;
+      padding-bottom: $i * 4px;
+    }
+  }
+}

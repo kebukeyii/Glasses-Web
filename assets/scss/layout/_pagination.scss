@@ -1,0 +1,26 @@
+.pagination {
+  a {
+    font-size: 19px;
+    padding: 12px 16px;
+    color: $third-dark;
+    border: 1px solid $third-dark;
+    &:hover {
+			background-color: #f2f2f2;
+		}
+
+		&.active {
+			background-color: $secondary;
+			color: $white;
+		}
+    @media (max-width: 576px) {
+        padding: 12px 15px;
+        font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    padding-bottom: 64px;
+  }
+}

@@ -1,0 +1,29 @@
+.faq {
+  .container {
+    @include pad {
+      max-width: 720px;
+    }
+  }
+  .page-title {
+    border-left: 8px solid #9f1213;
+    padding-left: 16px;
+    margin-bottom: 32px;
+    @include mobile {
+      font-size: 24px;
+    }
+  }
+  .faq-subtitle {
+    margin-bottom: 24px;
+  }
+  .questions {
+    h4 {
+      margin-bottom: 8px;
+    }
+    li:not(:last-child) {
+      margin-bottom: 32px;
+      @include mobile {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
